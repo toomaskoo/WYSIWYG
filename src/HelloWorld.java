@@ -1,8 +1,16 @@
+import javax.swing.*;
 import java.io.*;
 public class HelloWorld {
     public static void main(String args[]) throws IOException {
         System.out.println("Hello World!");
 
+        JFrame frame = new JFrame ("WYSIWYG");//create frame
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//X closes the program
+            frame.setVisible(true);
+            frame.getGraphics();
+            frame.setDefaultLookAndFeelDecorated(true);//looks like win XP
+            frame.setSize(1024,768);//1024x768 size
+            frame.getJMenuBar();
 
         //kirjutab index faili valmis
         PrintWriter index = new PrintWriter("index.html", "UTF-8");
