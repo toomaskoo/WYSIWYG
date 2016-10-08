@@ -13,7 +13,6 @@ public class HelloWorld {
         //kirjutab styles.css faili valmis
         PrintWriter css = new PrintWriter("styles.css", "UTF-8");
         css.println("h1 {color: red; text-align: center; font-size: 72px;}");
-        css.println("The second line");
         css.close();
     }
 }
